@@ -30,11 +30,11 @@ const Navbar = () => {
             className="md:hidden bg-grey w-12 h-12 rounded-full flex items-center justify-center"
             onClick={() => setSearchBoxVisibility((currentVal) => !currentVal)}
           >
-            <i class="fi fi-rr-search text-xl"></i>
+            <i className="fi fi-rr-search text-xl"></i>
           </button>
 
           <Link to="/editor" className="hidden md:flex gap-2 link ">
-            <i class="fi fi-rr-edit"></i>
+            <i className="fi fi-rr-edit"></i>
             <p>Write</p>
           </Link>
 
